@@ -1,6 +1,6 @@
 #importing library
 from tkinter import *
-from tkinter import ttk
+import tkinter.messagebox as msg
 
 #var = IntVar()
 window = Tk()
@@ -56,8 +56,11 @@ num.set("+91 ")
 Mobile1.config(font=('Times New Roman',15, "bold"))
 Mobile1.place(x=270, y=385, width=155, height=22)
 
+def onclick():
+    msg.showinfo('Info', 'Submitted successfully!')
+
 # Submit button
-btn = ttk.Button(window ,text="Submit").place(x=300, y=425, width=100, height=40)
+Button(window ,text="Submit", command=onclick).place(x=300, y=425, width=100, height=40)
 
 
 window.mainloop()
