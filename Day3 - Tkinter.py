@@ -43,9 +43,9 @@ Jvar = IntVar()
 Jsvar = IntVar()
 Pyvar = IntVar()
 C = Checkbutton(window, text="C", variable=Cvar,onvalue = 1, offvalue = 0, font=('Times New Roman',13,"bold")).place(x=265, y=262, width=50, height=20)
-Jvar = Checkbutton(window, text="Java", variable=Jvar,onvalue = 1, offvalue = 0, font=('Times New Roman',13,"bold")).place(x=272, y=283, width=55, height=20)
-Jsvar = Checkbutton(window, text="Java Script", variable=Jsvar,onvalue = 1, offvalue = 0, font=('Times New Roman',13,"bold")).place(x=270, y=302, width=110, height=20)
-Pyvar = Checkbutton(window, text="Python", variable=Pyvar,onvalue = 1, offvalue = 0, font=('Times New Roman',13,"bold")).place(x=233, y=324, width=155, height=20)
+Java = Checkbutton(window, text="Java", variable=Jvar,onvalue = 1, offvalue = 0, font=('Times New Roman',13,"bold")).place(x=272, y=283, width=55, height=20)
+Java_Script = Checkbutton(window, text="Java Script", variable=Jsvar,onvalue = 1, offvalue = 0, font=('Times New Roman',13,"bold")).place(x=270, y=302, width=110, height=20)
+Python = Checkbutton(window, text="Python", variable=Pyvar,onvalue = 1, offvalue = 0, font=('Times New Roman',13,"bold")).place(x=233, y=324, width=155, height=20)
 
 
 Email1 = Entry(window,font=('Times New Roman',15)).place(x=270, y=350, width=155, height=22)
