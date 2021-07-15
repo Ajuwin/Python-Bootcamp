@@ -3,7 +3,7 @@ import tkinter as tk
 # create a window window
 window = tk.Tk()
  
-# set the background colour of window window
+# set the background colour of window
 window.configure(background="light green")
 
 # set the title of window window
